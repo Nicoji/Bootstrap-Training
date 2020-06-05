@@ -1,0 +1,3 @@
+https://getbootstrap.com/docs/4.0/layout/grid/#grid-options
+
+https://getbootstrap.com/docs/4.0/utilities/display/
