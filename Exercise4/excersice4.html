@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../model.css">
+    <title>Exercise 4 correction</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Exercise 4 - Order</h1>
+
+        <p>
+            In this exercise, there is numbered section. The section 1 is placed before the section 2 IN THE CODE. 
+            The section 2 before the section 3 etc ... You will also have to write section 1, then 2, then 3 .. in this
+            order in your code. To display a different order than the one writing in the code, use 'order' from Bootstrap. <br>
+        </p>
+        <p>
+            Some models are not responsive, you just have to reproduce them using col-md only. The other ones change 
+            when screen size is reduced. 
+        </p>
+         
+
+        <h2>First model (not responsive) :</h2>
+            <div class="row">
+                <div class="order-md-2 offset-md-2 col-md-2">Section 1</div>
+                <div class="order-md-0 offset-md-1 col-md-2">Section 2</div>
+                <div class="order-md-1 offset-md-2 col-md-2">Section 3</div>
+            </div> 
+
+
+        <h2>Second model :</h2>
+
+            <div class="row">
+                <div class="order-xs-0 order-sm-0 col-md-6">Image 1</div>
+                <div class="order-xs-2 order-sm-2 col-md-6">Image 2</div>
+                <div class="order-xs-1 order-sm-1 col-md-6">Text of image 1</div>
+                <div class="order-xs-3 order-sm-3 col-md-6">Text of image 2</div>
+            </div>
+
+                
+        <h2>Third model (not responsive):</h2>
+            
+            <div class="row">
+                <div class="order-md-2 col-md-2">Section 1</div>
+                <div class="order-md-0 offset-md-2 col-md-2">Section 2</div>
+                <div class="order-md-1 col-md-2">Section 3</div>
+                <div class="order-md-4 col-md-2">Section 4</div>
+            </div>     
+
+
+        <h2>Fourth model :</h2>
+            <div class="row">
+                <div class="order-xs-1 order-sm-2 order-md-0 offset-md-1 col-md-2">Section 1</div>
+                <div class="order-xs-2 order-sm-0 order-md-1 offset-md-2 col-md-2">Section 2</div>
+                <div class="order-xs-0 order-sm-1 order-md-2 offset-md-2 col-md-2">Section 3</div>
+            </div> 
+
+        <h2>Fifth model :</h2>
+            <div class="row">
+                <div class="order-md-0 order-sm-2 order-0 offset-md-0 offset-sm-2 col-6 col-sm-3 col-md-3">Section 1</div>
+                <div class="order-md-0 order-sm-0 order-2 offset-md-0 offset-sm-2 col-6 col-sm-3 col-md-3">Section 2</div>
+                <div class="order-md-0 order-1 offset-md-0 col-6 col-md-3 d-sm-none d-md-block">Section 3</div>
+                <div class="order-md-0 order-3 offset-md-0 col-6 col-md-3 d-sm-none d-md-block">Section 4</div>
+            </div>
+
+    </div>
+</body>    
+</html>
